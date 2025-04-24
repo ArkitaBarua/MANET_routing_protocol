@@ -1,0 +1,350 @@
+FrtaRoutingProtocol initialized at 0s
+FrtaRoutingProtocol initialized at 0s
+FrtaRoutingProtocol initialized at 0s
+FrtaRoutingProtocol initialized at 0s
+FrtaRoutingProtocol initialized at 0s
+InitializeRoutingTable: Added route for 10.1.1.1 on interface 1 at 0s
+Added address m_local=10.1.1.1; m_mask=255.255.255.0; m_broadcast=10.1.1.255; m_scope=2; m_secondary=0 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.1 on interface 1 at 0s
+Interface 1 up at 0s
+InitializeRoutingTable: Added route for 10.1.1.2 on interface 1 at 0s
+Added address m_local=10.1.1.2; m_mask=255.255.255.0; m_broadcast=10.1.1.255; m_scope=2; m_secondary=0 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.2 on interface 1 at 0s
+Interface 1 up at 0s
+InitializeRoutingTable: Added route for 10.1.1.3 on interface 1 at 0s
+Added address m_local=10.1.1.3; m_mask=255.255.255.0; m_broadcast=10.1.1.255; m_scope=2; m_secondary=0 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.3 on interface 1 at 0s
+Interface 1 up at 0s
+InitializeRoutingTable: Added route for 10.1.1.4 on interface 1 at 0s
+Added address m_local=10.1.1.4; m_mask=255.255.255.0; m_broadcast=10.1.1.255; m_scope=2; m_secondary=0 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.4 on interface 1 at 0s
+Interface 1 up at 0s
+InitializeRoutingTable: Added route for 10.1.1.5 on interface 1 at 0s
+Added address m_local=10.1.1.5; m_mask=255.255.255.0; m_broadcast=10.1.1.255; m_scope=2; m_secondary=0 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.5 on interface 1 at 0s
+Interface 1 up at 0s
+InitializeRoutingTable: Added route for 10.1.1.1 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.2 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.3 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.4 on interface 1 at 0s
+InitializeRoutingTable: Added route for 10.1.1.5 on interface 1 at 0s
+Node 0 broadcasting route request for 10.1.1.5 at 2s
+Initiating route discovery for 10.1.1.5 at 2s
+Node 1 received packet type 1 from 10.1.1.1 at 2.00092s
+Node 1 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 2.00092s
+Updated trust for 10.1.1.1 from 0.5 to 0.64 at 2.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 94us at 2.00092s
+Node 3 received packet type 1 from 10.1.1.1 at 2.00092s
+Node 3 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 2.00092s
+Updated trust for 10.1.1.1 from 0.5 to 0.64 at 2.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 276us at 2.00092s
+Node 4 received packet type 1 from 10.1.1.1 at 2.00092s
+Node 4 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 2.00092s
+Updated trust for 10.1.1.1 from 0.5 to 0.64 at 2.00092s
+We are destination, sending reply to 10.1.1.1 via 10.1.1.1 at 2.00092s
+Node 4 scheduling route reply to 10.1.1.1 via 10.1.1.1 with delay 365us at 2.00092s
+Node 2 received packet type 1 from 10.1.1.1 at 2.00092s
+Node 2 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 2.00092s
+Updated trust for 10.1.1.1 from 0.5 to 0.64 at 2.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 969us at 2.00092s
+Node 1 forwarding route request to destination 10.1.1.5 at 2.00102s
+Node 3 forwarding route request to destination 10.1.1.5 at 2.0012s
+Node 2 forwarding route request to destination 10.1.1.5 at 2.00189s
+Node 0 received packet type 1 from 10.1.1.2 at 2.00194s
+Node 0 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 256) at 2.00194s
+Updated trust for 10.1.1.2 from 0.5 to 0.64 at 2.00194s
+Node 2 received packet type 1 from 10.1.1.2 at 2.00194s
+Node 2 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 256) at 2.00194s
+Updated trust for 10.1.1.2 from 0.5 to 0.64 at 2.00194s
+Node 4 received packet type 1 from 10.1.1.2 at 2.00194s
+Node 4 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 256) at 2.00194s
+Updated trust for 10.1.1.2 from 0.5 to 0.64 at 2.00194s
+Node 3 received packet type 1 from 10.1.1.2 at 2.00194s
+Node 3 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 256) at 2.00194s
+Updated trust for 10.1.1.2 from 0.5 to 0.64 at 2.00194s
+Node 1 received packet type 1 from 10.1.1.3 at 2.00296s
+Node 1 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 256) at 2.00296s
+Updated trust for 10.1.1.3 from 0.5 to 0.64 at 2.00296s
+Node 4 received packet type 1 from 10.1.1.3 at 2.00296s
+Node 4 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 256) at 2.00296s
+Updated trust for 10.1.1.3 from 0.5 to 0.64 at 2.00296s
+Node 0 received packet type 1 from 10.1.1.3 at 2.00296s
+Node 0 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 256) at 2.00296s
+Updated trust for 10.1.1.3 from 0.5 to 0.64 at 2.00296s
+Node 3 received packet type 1 from 10.1.1.3 at 2.00296s
+Node 3 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 256) at 2.00296s
+Updated trust for 10.1.1.3 from 0.5 to 0.64 at 2.00296s
+Node 0 received packet type 1 from 10.1.1.4 at 2.00404s
+Node 0 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 256) at 2.00404s
+Updated trust for 10.1.1.4 from 0.5 to 0.64 at 2.00404s
+Node 4 received packet type 1 from 10.1.1.4 at 2.00404s
+Node 4 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 256) at 2.00404s
+Updated trust for 10.1.1.4 from 0.5 to 0.64 at 2.00404s
+Node 1 received packet type 1 from 10.1.1.4 at 2.00404s
+Node 1 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 256) at 2.00404s
+Updated trust for 10.1.1.4 from 0.5 to 0.64 at 2.00404s
+Node 2 received packet type 1 from 10.1.1.4 at 2.00404s
+Node 2 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 256) at 2.00404s
+Updated trust for 10.1.1.4 from 0.5 to 0.64 at 2.00404s
+Node 0 received packet type 1 from 10.1.1.5 at 2.00743s
+Node 0 processing route request from 10.1.1.5 for destination 1.1.1.10 (hop count: 3833258311) at 2.00743s
+Updated trust for 10.1.1.5 from 0.5 to 0.64 at 2.00743s
+Node 0 route request timeout for 10.1.1.5 at 4s
+  Pending requests: 1, Route cache entries: 3
+Node 0 broadcasting route request for 10.1.1.5 at 4s
+Initiating route discovery for 10.1.1.5 at 4s
+Node 1 received packet type 1 from 10.1.1.1 at 4.00092s
+Node 1 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 4.00092s
+Updated trust for 10.1.1.1 from 0.64 to 0.682 at 4.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 564us at 4.00092s
+Node 3 received packet type 1 from 10.1.1.1 at 4.00092s
+Node 3 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 4.00092s
+Updated trust for 10.1.1.1 from 0.64 to 0.682 at 4.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 963us at 4.00092s
+Node 4 received packet type 1 from 10.1.1.1 at 4.00092s
+Node 4 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 4.00092s
+Updated trust for 10.1.1.1 from 0.64 to 0.682 at 4.00092s
+We are destination, sending reply to 10.1.1.1 via 10.1.1.1 at 4.00092s
+Node 4 scheduling route reply to 10.1.1.1 via 10.1.1.1 with delay 237us at 4.00092s
+Node 2 received packet type 1 from 10.1.1.1 at 4.00092s
+Node 2 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 4.00092s
+Updated trust for 10.1.1.1 from 0.64 to 0.682 at 4.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 798us at 4.00092s
+Node 0 received packet type 1 from 10.1.1.5 at 4.00147s
+Node 0 processing route request from 10.1.1.5 for destination 1.1.1.10 (hop count: 3855806889) at 4.00147s
+Updated trust for 10.1.1.5 from 0.64 to 0.682 at 4.00147s
+Node 1 forwarding route request to destination 10.1.1.5 at 4.00149s
+Node 2 forwarding route request to destination 10.1.1.5 at 4.00172s
+Node 3 forwarding route request to destination 10.1.1.5 at 4.00189s
+Node 1 received packet type 1 from 10.1.1.3 at 4.00264s
+Node 1 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 256) at 4.00264s
+Updated trust for 10.1.1.3 from 0.64 to 0.682 at 4.00264s
+Node 4 received packet type 1 from 10.1.1.3 at 4.00264s
+Node 4 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 256) at 4.00264s
+Updated trust for 10.1.1.3 from 0.64 to 0.682 at 4.00264s
+Node 0 received packet type 1 from 10.1.1.3 at 4.00264s
+Node 0 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 256) at 4.00264s
+Updated trust for 10.1.1.3 from 0.64 to 0.682 at 4.00264s
+Node 3 received packet type 1 from 10.1.1.3 at 4.00264s
+Node 3 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 256) at 4.00264s
+Updated trust for 10.1.1.3 from 0.64 to 0.682 at 4.00264s
+Node 0 received packet type 1 from 10.1.1.2 at 4.00374s
+Node 0 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 256) at 4.00374s
+Updated trust for 10.1.1.2 from 0.64 to 0.682 at 4.00374s
+Node 2 received packet type 1 from 10.1.1.2 at 4.00374s
+Node 2 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 256) at 4.00374s
+Updated trust for 10.1.1.2 from 0.64 to 0.682 at 4.00374s
+Node 4 received packet type 1 from 10.1.1.2 at 4.00374s
+Node 4 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 256) at 4.00374s
+Updated trust for 10.1.1.2 from 0.64 to 0.682 at 4.00374s
+Node 3 received packet type 1 from 10.1.1.2 at 4.00374s
+Node 3 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 256) at 4.00374s
+Updated trust for 10.1.1.2 from 0.64 to 0.682 at 4.00374s
+Node 4 received packet type 1 from 10.1.1.4 at 4.00485s
+Node 4 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 256) at 4.00485s
+Updated trust for 10.1.1.4 from 0.64 to 0.682 at 4.00485s
+Node 0 received packet type 1 from 10.1.1.4 at 4.00485s
+Node 0 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 256) at 4.00485s
+Updated trust for 10.1.1.4 from 0.64 to 0.682 at 4.00485s
+Node 1 received packet type 1 from 10.1.1.4 at 4.00485s
+Node 1 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 256) at 4.00485s
+Updated trust for 10.1.1.4 from 0.64 to 0.682 at 4.00485s
+Node 2 received packet type 1 from 10.1.1.4 at 4.00485s
+Node 2 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 256) at 4.00485s
+Updated trust for 10.1.1.4 from 0.64 to 0.682 at 4.00485s
+Node 0 route request timeout for 10.1.1.5 at 6s
+  Pending requests: 1, Route cache entries: 3
+Node 0 broadcasting route request for 10.1.1.5 at 6s
+Initiating route discovery for 10.1.1.5 at 6s
+Node 1 received packet type 1 from 10.1.1.1 at 6.00092s
+Node 1 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 6.00092s
+Updated trust for 10.1.1.1 from 0.682 to 0.6946 at 6.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 521us at 6.00092s
+Node 3 received packet type 1 from 10.1.1.1 at 6.00092s
+Node 3 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 6.00092s
+Updated trust for 10.1.1.1 from 0.682 to 0.6946 at 6.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 930us at 6.00092s
+Node 4 received packet type 1 from 10.1.1.1 at 6.00092s
+Node 4 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 6.00092s
+Updated trust for 10.1.1.1 from 0.682 to 0.6946 at 6.00092s
+We are destination, sending reply to 10.1.1.1 via 10.1.1.1 at 6.00092s
+Node 4 scheduling route reply to 10.1.1.1 via 10.1.1.1 with delay 161us at 6.00092s
+Node 2 received packet type 1 from 10.1.1.1 at 6.00092s
+Node 2 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 6.00092s
+Updated trust for 10.1.1.1 from 0.682 to 0.6946 at 6.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 787us at 6.00092s
+Node 0 received packet type 1 from 10.1.1.5 at 6.00139s
+Node 0 processing route request from 10.1.1.5 for destination 1.1.1.10 (hop count: 3862571463) at 6.00139s
+Updated trust for 10.1.1.5 from 0.682 to 0.6946 at 6.00139s
+Node 1 forwarding route request to destination 10.1.1.5 at 6.00144s
+Node 2 forwarding route request to destination 10.1.1.5 at 6.00171s
+Node 3 forwarding route request to destination 10.1.1.5 at 6.00185s
+Node 1 received packet type 1 from 10.1.1.3 at 6.00263s
+Node 1 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 6.00263s
+Updated trust for 10.1.1.3 from 0.682 to 0.6946 at 6.00263s
+Node 4 received packet type 1 from 10.1.1.3 at 6.00263s
+Node 4 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 6.00263s
+Updated trust for 10.1.1.3 from 0.682 to 0.6946 at 6.00263s
+Node 3 received packet type 1 from 10.1.1.3 at 6.00263s
+Node 3 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 6.00263s
+Updated trust for 10.1.1.3 from 0.682 to 0.6946 at 6.00263s
+Node 0 received packet type 1 from 10.1.1.3 at 6.00263s
+Node 0 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 6.00263s
+Updated trust for 10.1.1.3 from 0.682 to 0.6946 at 6.00263s
+Node 0 received packet type 1 from 10.1.1.2 at 6.00367s
+Node 0 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 6.00367s
+Updated trust for 10.1.1.2 from 0.682 to 0.6946 at 6.00367s
+Node 2 received packet type 1 from 10.1.1.2 at 6.00367s
+Node 2 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 6.00367s
+Updated trust for 10.1.1.2 from 0.682 to 0.6946 at 6.00367s
+Node 4 received packet type 1 from 10.1.1.2 at 6.00367s
+Node 4 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 6.00367s
+Updated trust for 10.1.1.2 from 0.682 to 0.6946 at 6.00367s
+Node 3 received packet type 1 from 10.1.1.2 at 6.00367s
+Node 3 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 6.00367s
+Updated trust for 10.1.1.2 from 0.682 to 0.6946 at 6.00367s
+Node 4 received packet type 1 from 10.1.1.4 at 6.00462s
+Node 4 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 6.00462s
+Updated trust for 10.1.1.4 from 0.682 to 0.6946 at 6.00462s
+Node 1 received packet type 1 from 10.1.1.4 at 6.00462s
+Node 1 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 6.00462s
+Updated trust for 10.1.1.4 from 0.682 to 0.6946 at 6.00462s
+Node 0 received packet type 1 from 10.1.1.4 at 6.00462s
+Node 0 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 6.00462s
+Updated trust for 10.1.1.4 from 0.682 to 0.6946 at 6.00462s
+Node 2 received packet type 1 from 10.1.1.4 at 6.00462s
+Node 2 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 6.00462s
+Updated trust for 10.1.1.4 from 0.682 to 0.6946 at 6.00462s
+Node 0 route request timeout for 10.1.1.5 at 8s
+  Pending requests: 1, Route cache entries: 3
+Node 0 broadcasting route request for 10.1.1.5 at 8s
+Initiating route discovery for 10.1.1.5 at 8s
+Node 1 received packet type 1 from 10.1.1.1 at 8.00092s
+Node 1 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 8.00092s
+Updated trust for 10.1.1.1 from 0.6946 to 0.69838 at 8.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 349us at 8.00092s
+Node 3 received packet type 1 from 10.1.1.1 at 8.00092s
+Node 3 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 8.00092s
+Updated trust for 10.1.1.1 from 0.6946 to 0.69838 at 8.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 857us at 8.00092s
+Node 4 received packet type 1 from 10.1.1.1 at 8.00092s
+Node 4 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 8.00092s
+Updated trust for 10.1.1.1 from 0.6946 to 0.69838 at 8.00092s
+We are destination, sending reply to 10.1.1.1 via 10.1.1.1 at 8.00092s
+Node 4 scheduling route reply to 10.1.1.1 via 10.1.1.1 with delay 388us at 8.00092s
+Node 2 received packet type 1 from 10.1.1.1 at 8.00092s
+Node 2 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 8.00092s
+Updated trust for 10.1.1.1 from 0.6946 to 0.69838 at 8.00092s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 433us at 8.00092s
+Node 1 forwarding route request to destination 10.1.1.5 at 8.00127s
+Node 2 forwarding route request to destination 10.1.1.5 at 8.00136s
+Node 3 forwarding route request to destination 10.1.1.5 at 8.00178s
+Node 0 received packet type 1 from 10.1.1.2 at 8.00219s
+Node 0 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 8.00219s
+Updated trust for 10.1.1.2 from 0.6946 to 0.69838 at 8.00219s
+Node 2 received packet type 1 from 10.1.1.2 at 8.00219s
+Node 2 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 8.00219s
+Updated trust for 10.1.1.2 from 0.6946 to 0.69838 at 8.00219s
+Node 3 received packet type 1 from 10.1.1.2 at 8.00219s
+Node 3 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 8.00219s
+Updated trust for 10.1.1.2 from 0.6946 to 0.69838 at 8.00219s
+Node 4 received packet type 1 from 10.1.1.2 at 8.00219s
+Node 4 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 8.00219s
+Updated trust for 10.1.1.2 from 0.6946 to 0.69838 at 8.00219s
+Node 0 received packet type 1 from 10.1.1.5 at 8.0025s
+Node 0 processing route request from 10.1.1.5 for destination 1.1.1.10 (hop count: 3864600835) at 8.0025s
+Updated trust for 10.1.1.5 from 0.6946 to 0.69838 at 8.0025s
+Node 1 received packet type 1 from 10.1.1.3 at 8.00386s
+Node 1 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 8.00386s
+Updated trust for 10.1.1.3 from 0.6946 to 0.69838 at 8.00386s
+Node 4 received packet type 1 from 10.1.1.3 at 8.00386s
+Node 4 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 8.00386s
+Updated trust for 10.1.1.3 from 0.6946 to 0.69838 at 8.00386s
+Node 3 received packet type 1 from 10.1.1.3 at 8.00386s
+Node 3 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 8.00386s
+Updated trust for 10.1.1.3 from 0.6946 to 0.69838 at 8.00386s
+Node 0 received packet type 1 from 10.1.1.3 at 8.00386s
+Node 0 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 8.00386s
+Updated trust for 10.1.1.3 from 0.6946 to 0.69838 at 8.00386s
+Node 4 received packet type 1 from 10.1.1.4 at 8.00512s
+Node 4 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 8.00512s
+Updated trust for 10.1.1.4 from 0.6946 to 0.69838 at 8.00512s
+Node 1 received packet type 1 from 10.1.1.4 at 8.00512s
+Node 1 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 8.00512s
+Updated trust for 10.1.1.4 from 0.6946 to 0.69838 at 8.00512s
+Node 2 received packet type 1 from 10.1.1.4 at 8.00512s
+Node 2 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 8.00512s
+Updated trust for 10.1.1.4 from 0.6946 to 0.69838 at 8.00512s
+Node 0 received packet type 1 from 10.1.1.4 at 8.00512s
+Node 0 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 8.00512s
+Updated trust for 10.1.1.4 from 0.6946 to 0.69838 at 8.00512s
+Node 0 route request timeout for 10.1.1.5 at 10s
+  Pending requests: 1, Route cache entries: 3
+Node 0 broadcasting route request for 10.1.1.5 at 10s
+Initiating route discovery for 10.1.1.5 at 10s
+Node 1 received packet type 1 from 10.1.1.1 at 10.0009s
+Node 1 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 10.0009s
+Updated trust for 10.1.1.1 from 0.69838 to 0.699514 at 10.0009s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 601us at 10.0009s
+Node 2 received packet type 1 from 10.1.1.1 at 10.0009s
+Node 2 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 10.0009s
+Updated trust for 10.1.1.1 from 0.69838 to 0.699514 at 10.0009s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 602us at 10.0009s
+Node 4 received packet type 1 from 10.1.1.1 at 10.0009s
+Node 4 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 10.0009s
+Updated trust for 10.1.1.1 from 0.69838 to 0.699514 at 10.0009s
+We are destination, sending reply to 10.1.1.1 via 10.1.1.1 at 10.0009s
+Node 4 scheduling route reply to 10.1.1.1 via 10.1.1.1 with delay 196us at 10.0009s
+Node 3 received packet type 1 from 10.1.1.1 at 10.0009s
+Node 3 processing route request from 10.1.1.1 for destination 10.1.1.5 (hop count: 0) at 10.0009s
+Updated trust for 10.1.1.1 from 0.69838 to 0.699514 at 10.0009s
+Forwarding request for 10.1.1.5 (hop count: 1) with delay 44us at 10.0009s
+Node 3 forwarding route request to destination 10.1.1.5 at 10.001s
+Node 1 forwarding route request to destination 10.1.1.5 at 10.0015s
+Node 2 forwarding route request to destination 10.1.1.5 at 10.0015s
+Node 4 received packet type 1 from 10.1.1.4 at 10.0019s
+Node 4 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 10.0019s
+Updated trust for 10.1.1.4 from 0.69838 to 0.699514 at 10.0019s
+Node 2 received packet type 1 from 10.1.1.4 at 10.0019s
+Node 2 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 10.0019s
+Updated trust for 10.1.1.4 from 0.69838 to 0.699514 at 10.0019s
+Node 1 received packet type 1 from 10.1.1.4 at 10.0019s
+Node 1 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 10.0019s
+Updated trust for 10.1.1.4 from 0.69838 to 0.699514 at 10.0019s
+Node 0 received packet type 1 from 10.1.1.4 at 10.0019s
+Node 0 processing route request from 10.1.1.4 for destination 1.1.5.10 (hop count: 257) at 10.0019s
+Updated trust for 10.1.1.4 from 0.69838 to 0.699514 at 10.0019s
+Node 0 received packet type 1 from 10.1.1.2 at 10.0029s
+Node 0 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 10.0029s
+Updated trust for 10.1.1.2 from 0.69838 to 0.699514 at 10.0029s
+Node 2 received packet type 1 from 10.1.1.2 at 10.0029s
+Node 2 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 10.0029s
+Updated trust for 10.1.1.2 from 0.69838 to 0.699514 at 10.0029s
+Node 3 received packet type 1 from 10.1.1.2 at 10.0029s
+Node 3 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 10.0029s
+Updated trust for 10.1.1.2 from 0.69838 to 0.699514 at 10.0029s
+Node 4 received packet type 1 from 10.1.1.2 at 10.0029s
+Node 4 processing route request from 10.1.1.2 for destination 1.1.5.10 (hop count: 257) at 10.0029s
+Updated trust for 10.1.1.2 from 0.69838 to 0.699514 at 10.0029s
+Node 3 received packet type 1 from 10.1.1.3 at 10.004s
+Node 3 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 10.004s
+Updated trust for 10.1.1.3 from 0.69838 to 0.699514 at 10.004s
+Node 4 received packet type 1 from 10.1.1.3 at 10.004s
+Node 4 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 10.004s
+Updated trust for 10.1.1.3 from 0.69838 to 0.699514 at 10.004s
+Node 1 received packet type 1 from 10.1.1.3 at 10.004s
+Node 1 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 10.004s
+Updated trust for 10.1.1.3 from 0.69838 to 0.699514 at 10.004s
+Node 0 received packet type 1 from 10.1.1.3 at 10.004s
+Node 0 processing route request from 10.1.1.3 for destination 1.1.5.10 (hop count: 257) at 10.004s
+Updated trust for 10.1.1.3 from 0.69838 to 0.699514 at 10.004s
+Node 0 received packet type 1 from 10.1.1.5 at 10.0047s
+Node 0 processing route request from 10.1.1.5 for destination 1.1.1.10 (hop count: 3865209647) at 10.0047s
+Updated trust for 10.1.1.5 from 0.69838 to 0.699514 at 10.0047s
+Node 0 route request timeout for 10.1.1.5 at 12s
+  Pending requests: 1, Route cache entries: 3
+FrtaRoutingProtocol destroyed at 0s
+FrtaRoutingProtocol destroyed at 0s
+FrtaRoutingProtocol destroyed at 0s
+FrtaRoutingProtocol destroyed at 0s
+FrtaRoutingProtocol destroyed at 0s
